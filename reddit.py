@@ -11,10 +11,11 @@ import time
 
 
 # getting into Reddit API
+# insert own client_id and client_secret from reddit account.
 user_agent = "Scraper 1 by bella"
 reddit = praw.Reddit(
-    client_id="5Xfepam8-BtqU5HDqhotEw", 
-    client_secret="qVF9bFh8Zuih-0R0ANgTpWzIWbKq1Q",
+    client_id="############", 
+    client_secret="################",
     user_agent=user_agent
 )
 
